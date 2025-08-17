@@ -1,0 +1,60 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-playfair: 'Playfair Display', serif;
+}
+
+body {
+  font-family: var(--font-inter);
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+main {
+  padding: 2rem;
+}
+
+nav {
+  background-color: #222;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  margin-top: 2rem;
+}
